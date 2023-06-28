@@ -1,5 +1,5 @@
 export type brand = {
-  image: string | unknown;
+  image: string | any;
   alt: string;
 };
 
