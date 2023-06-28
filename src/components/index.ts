@@ -1,5 +1,5 @@
-export { default as Article } from "./article/Article";
-export { default as Brand } from "./brand/Brand";
-export { default as Cta } from "./cta/Cta";
-export { default as Feature } from "./feature/Feature";
-export { default as Navbar } from "./navbar/Navbar";
+export { default as Article } from "./Article";
+export { default as Brand } from "./Brand";
+export { default as Cta } from "./Cta";
+export { default as Feature } from "./Feature";
+export { default as Navbar } from "./Navbar";
