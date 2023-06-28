@@ -3,9 +3,9 @@ import logo from "@/assets/logo.svg";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className='text-white flex justify-between items-center py-5 font-light text-sm'>
+    <nav className='text-white flex justify-between items-center py-5 font-medium text-sm'>
       <ul className='inline-flex items-center justify-start'>
-        <li className='mr-12'>
+        <li className='mr-12 duration-300 hover:opacity-80'>
           <Image className='cursor-pointer w-auto h-4' src={logo} alt='logo' />
         </li>
         <li className='p-3 hover:text-sky-500 duration-300'>

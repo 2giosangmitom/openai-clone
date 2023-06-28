@@ -1,5 +1,5 @@
-import { Brand, Navbar } from "@/components";
-import { Header, Brands } from "@/content";
+import { Navbar, CTA } from "@/components";
+import { Header, Brands, WhatGPT, Features, Possibility, Blogs } from "@/content";
 
 const Home: React.FC = () => {
   return (
@@ -7,6 +7,11 @@ const Home: React.FC = () => {
       <Navbar />
       <Header />
       <Brands />
+      <WhatGPT />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blogs />
     </div>
   );
 };
