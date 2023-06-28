@@ -32,8 +32,13 @@ const Header: React.FC = () => {
           <p className='text-sky-200'>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
-      <div className='-mt-6 -mr-32 z-0'>
-        <Image src={AI} width={1300} alt='AI image' />
+      <div className='-mt-6 -mr-32 z-0 duration-1000 hover:scale-95'>
+        <Image
+          src={AI}
+          width={1300}
+          alt='AI image'
+          className='duration-1000 hover:drop-shadow-image'
+        />
       </div>
     </div>
   );
