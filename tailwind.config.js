@@ -7,6 +7,9 @@ module.exports = {
         primary: "#040C18",
         input: "rgba(0, 40, 83, 1)",
       },
+      dropShadow: {
+        image: "0 0 0.5em #4ac7d1",
+      },
     },
   },
   plugins: [],
