@@ -11,7 +11,9 @@ const Footer = () => {
       </div>
 
       <div className="text-center py-10">
-        <button className="border p-3 text-white">Request Early Access</button>
+        <button className="bg-transparent border rounded hover:bg-white hover:text-black duration-200 ease-in p-3 text-white">
+          Request Early Access
+        </button>
       </div>
 
       <div className="grid grid-cols-4 text-white mx-24 my-20 font-light">
