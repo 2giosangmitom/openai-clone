@@ -9,19 +9,19 @@ const Navbar: React.FC = () => {
           <Image className="cursor-pointer w-auto sm:h-3 md:h-4" src={logo} alt="logo" />
         </li>
         <li className="xl:p-3 md:p-2 sm:p-1 hover:text-sky-500 duration-300">
-          <a href="">Home</a>
+          <a href="#">Home</a>
         </li>
         <li className="xl:p-3 md:p-2 sm:p-1 hover:text-sky-500 duration-300">
-          <a href="">What is GPT ?</a>
+          <a href="whatgpt">What is GPT ?</a>
         </li>
         <li className="xl:p-3 md:p-2 sm:p-1 hover:text-sky-500 duration-300">
-          <a href="">Open AI</a>
+          <a href="https://openai.com/">Open AI</a>
         </li>
         <li className="xl:p-3 md:p-2 sm:p-1 hover:text-sky-500 duration-300">
-          <a href="">Case Studies</a>
+          <a href="#">Case Studies</a>
         </li>
         <li className="xl:p-3 md:p-2 sm:p-1 hover:text-sky-500 duration-300">
-          <a href="">Library</a>
+          <a href="#">Library</a>
         </li>
       </ul>
       <div>

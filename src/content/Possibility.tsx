@@ -7,7 +7,9 @@ const Possibility = () => (
       <Image src={possibility} alt="possibility" className="w-10/12 h-auto" />
     </div>
     <div className="max-w-lg mt-5 sm:mt-0">
-      <h4 className="text-sky-200 mb-2 md:text-base text-sm text-center sm:text-left">Request Early Access to Get Started</h4>
+      <h4 className="text-sky-200 mb-2 md:text-base text-sm text-center sm:text-left">
+        Request Early Access to Get Started
+      </h4>
       <h1 className="gradient-text lg:text-3xl font-bold my-5 md:text-xl text-center sm:text-left">
         The possibilities are <br /> beyond your imagination
       </h1>
