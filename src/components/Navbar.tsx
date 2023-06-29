@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           <a href="">Library</a>
         </li>
       </ul>
-      <div className="float-right hidden sm:block">
+      <div>
         <span className="p-2 cursor-pointer hover:text-sky-500 duration-300">Sign in</span>
         <span className="p-2 cursor-pointer bg-orange-600 rounded-md duration-200 hover:bg-orange-700 z-10">
           Sign up
