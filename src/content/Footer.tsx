@@ -5,9 +5,9 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <div className="mt-32 bg-blue-950 xl:-mx-32 2xl:-mx-36 lg:-mx-24 md:-mx-10 sm:-mx-5">
+    <div className="mt-32 bg-blue-950 xl:-mx-32 2xl:-mx-36 lg:-mx-24 md:-mx-10 sm:-mx-5 -mx-2">
       <div className="text-center md:px-32 sm:px-20">
-        <h1 className="gradient-text font-bold pt-20 md:text-5xl sm:text-2xl">
+        <h1 className="gradient-text font-bold pt-20 md:text-5xl sm:text-2xl text-xl">
           Do you want to step in to the future before others
         </h1>
       </div>
@@ -18,7 +18,7 @@ const Footer = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-4 text-white md:mx-24 my-20 font-light md:text-base sm:text-sm">
+      <div className="sm:grid grid-cols-4 text-white md:mx-24 my-10 font-light md:text-base sm:text-sm text-sm">
         <div className="px-2">
           <Image src={gpt3logo} width={100} alt="logo" />
           <p className="pt-5 text-sm font-medium">

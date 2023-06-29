@@ -3,8 +3,8 @@ import logo from "@/assets/logo.svg";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="text-white flex justify-between items-center py-5 font-medium md:text-sm sm:text-xs">
-      <ul className="inline-flex items-center justify-start">
+    <nav className="text-white sm:flex justify-between items-center py-5 font-medium md:text-sm sm:text-xs">
+      <ul className="sm:inline-flex items-center justify-start hidden">
         <li className="xl:mr-12 md:mr-5 duration-300 hover:opacity-80 sm:mr-2">
           <Image className="cursor-pointer w-auto sm:h-3 md:h-4" src={logo} alt="logo" />
         </li>
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           <a href="">Library</a>
         </li>
       </ul>
-      <div>
+      <div className="float-right hidden sm:block">
         <span className="p-2 cursor-pointer hover:text-sky-500 duration-300">Sign in</span>
         <span className="p-2 cursor-pointer bg-orange-600 rounded-md duration-200 hover:bg-orange-700 z-10">
           Sign up

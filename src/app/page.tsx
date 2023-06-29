@@ -3,7 +3,7 @@ import { Header, Brands, WhatGPT, Features, Possibility, Footer } from "@/conten
 
 const Home: React.FC = () => {
   return (
-    <div className="2xl:px-36 xl:px-32 lg:px-24 md:px-10 sm:px-5">
+    <div className="px-2 2xl:px-36 xl:px-32 lg:px-24 md:px-10 sm:px-5">
       <Navbar />
       <Header />
       <Brands />
