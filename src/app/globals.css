@@ -4,22 +4,10 @@
 
 @layer utilities {
   .gradient {
-    background: -moz-radial-gradient(
-      circle at 3% 25%,
-      rgba(0, 40, 83, 1) 0%,
-      rgba(4, 12, 24, 1) 25%
-    );
-    background: -webkit-radial-gradient(
-      circle at 3% 25%,
-      rgba(0, 40, 83, 1) 0%,
-      rgba(4, 12, 24, 1) 25%
-    );
+    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
     background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-    background: -ms-radial-gradient(
-      circle at 3% 25%,
-      rgba(0, 40, 83, 1) 0%,
-      rgba(4, 12, 24, 1) 25%
-    );
+    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
     background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
   }
   .gradient-text {
@@ -52,6 +40,6 @@
   background: #555;
 }
 
-.blog__group1 .read__full {
-  margin-top: 12.5rem;
+.blog__group1 .article__text {
+  min-height: 23rem;
 }

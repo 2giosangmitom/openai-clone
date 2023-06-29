@@ -3,7 +3,7 @@ import { Header, Brands, WhatGPT, Features, Possibility, Blogs } from "@/content
 
 const Home: React.FC = () => {
   return (
-    <div className='mx-32'>
+    <div className="mx-32">
       <Navbar />
       <Header />
       <Brands />

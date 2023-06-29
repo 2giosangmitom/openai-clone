@@ -31,7 +31,7 @@ const brands: brand[] = [
 
 const Brands: React.FC = () => {
   return (
-    <div className='flex justify-center items-center py-5'>
+    <div className="flex justify-center items-center py-5">
       {brands.map((value, index) => {
         return <Brand image={value.image} alt={value.alt} key={index} />;
       })}
