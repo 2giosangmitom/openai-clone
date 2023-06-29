@@ -4,3 +4,4 @@ export { default as WhatGPT } from "./WhatGPT";
 export { default as Features } from "./Features";
 export { default as Possibility } from "./Possibility";
 export { default as Blogs } from "./Blogs";
+export { default as Footer } from "./Footer";

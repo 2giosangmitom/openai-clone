@@ -1,9 +1,9 @@
 import { Navbar, CTA } from "@/components";
-import { Header, Brands, WhatGPT, Features, Possibility, Blogs } from "@/content";
+import { Header, Brands, WhatGPT, Features, Possibility, Blogs, Footer } from "@/content";
 
 const Home: React.FC = () => {
   return (
-    <div className="mx-32">
+    <div className="px-32">
       <Navbar />
       <Header />
       <Brands />
@@ -12,6 +12,7 @@ const Home: React.FC = () => {
       <Possibility />
       <CTA />
       <Blogs />
+      <Footer />
     </div>
   );
 };
