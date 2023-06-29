@@ -43,11 +43,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
-.blog__group1 .article__text {
-  min-height: 23rem;
-}
-
-.blog__group1 .read__full {
-  padding-top: 13.5rem;
-}
