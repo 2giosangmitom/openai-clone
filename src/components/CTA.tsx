@@ -5,7 +5,7 @@ const CTA: React.FC = () => (
       <h3 className="font-semibold md:text-lg">Register Today & start exploring the endless possibilities.</h3>
     </div>
     <div>
-      <button className="bg-black hover:bg-neutral-950 md:text-sm duration-300 px-10 text-center text-white py-3 rounded-3xl font-semibold">
+      <button className="bg-black hover:bg-neutral-950 sm:text-sm duration-300 px-10 text-center text-white py-3 rounded-3xl font-semibold w-40">
         Get Started
       </button>
     </div>

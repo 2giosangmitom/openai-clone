@@ -7,16 +7,18 @@ const Footer = () => {
   return (
     <div className="mt-32 bg-blue-950 xl:-mx-32 2xl:-mx-36 lg:-mx-24 md:-mx-10 sm:-mx-5">
       <div className="text-center md:px-32 sm:px-20">
-        <h1 className="gradient-text font-bold pt-20 text-5xl">Do you want to step in to the future before others</h1>
+        <h1 className="gradient-text font-bold pt-20 md:text-5xl sm:text-2xl">
+          Do you want to step in to the future before others
+        </h1>
       </div>
 
       <div className="text-center py-10">
-        <button className="bg-transparent border rounded hover:bg-white hover:border-transparent hover:text-black duration-200 ease-in p-3 text-white">
+        <button className="bg-transparent border rounded hover:bg-white hover:border-transparent hover:text-black duration-200 ease-in p-3 text-white sm:text-sm md:text-base">
           Request Early Access
         </button>
       </div>
 
-      <div className="grid grid-cols-4 text-white md:mx-24 my-20 font-light">
+      <div className="grid grid-cols-4 text-white md:mx-24 my-20 font-light md:text-base sm:text-sm">
         <div className="px-2">
           <Image src={gpt3logo} width={100} alt="logo" />
           <p className="pt-5 text-sm font-medium">

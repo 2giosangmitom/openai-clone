@@ -26,18 +26,18 @@ const featuresData: feature[] = [
 
 const Features: React.FC = () => {
   return (
-    <div className="flex justify-between">
+    <div className="md:flex md:justify-between sm:text-xl">
       <div className="flex flex-col">
         <h1 className="gradient-text xl:text-3xl lg:text-2xl font-bold lg:w-10/12 md:text-xl md:w-64">
           The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.
         </h1>
-        <p className="gradient-text text-sm mt-5">Request Early Access to Get Started</p>
+        <p className="gradient-text text-sm md:mt-5 sm:my-5">Request Early Access to Get Started</p>
       </div>
       <div className="text-white xl:max-w-xl lg:max-w-lg lg:ml-5">
         {featuresData.map((value, index) => (
           <div key={index} className="flex mb-5 items-center justify-between">
             <Title title={value.title} />
-            <p className="text-sky-200 max-w-xs xl:ml-5 lg:ml-2 font-light md:text-sm md:w-56 md:pl-2 xl:text-base xl:pl-0">
+            <p className="text-sky-200 max-w-xs xl:ml-5 lg:ml-2 font-light md:w-56 md:pl-2 xl:text-base xl:pl-0 sm:text-sm">
               {value.content}
             </p>
           </div>
