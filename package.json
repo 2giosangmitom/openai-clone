@@ -1,6 +1,5 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "gpt_clone",
   "type": "module",
   "scripts": {
     "build": "nuxi build",
@@ -23,3 +22,4 @@
     "vue-tsc": "^1.8.24"
   }
 }
+
